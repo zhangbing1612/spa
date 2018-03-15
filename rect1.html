@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <script src="jquery.1.11.3.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+   
+    <div class="rect">
+        <label for="rectangle-width" >
+            宽度：
+        </label>
+        <input id="rectangle-width" type="textbox" onblur="aa()">
+        <span id="spaner"></span>
+        
+        </br>
+        <label id="len" display="none"  ></label>
+        </br>
+        <label for="rectangle-height" >
+             高度：
+        </label>
+            <input id="rectangle-height" type="textbox" onblur="bb()">
+            <span id="spaner"></span>
+        </br>
+        <label id="len2"></label>
+        </br>
+        <input id="rectangle-calc" type="button" value="计算">
+        <br>
+        <label for="rectangle-perimeter">周长：</label>
+        <input id="rectangle-perimeter" type="textbox" disabled>
+        <br>
+        <label for="rectangle-area">面积：</label>
+        <input id="rectangle-area" type="textbox" disabled>
+    
+</div>
+</body>
+<script src="rect2.js"></script>
+</html>
