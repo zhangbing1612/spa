@@ -55,20 +55,20 @@
  function aa(){
         if(wid.value===''){
                             len.innerHTML='长度不能为空';
-                            // hei.setAttribute("disabled","disabled")
+                            hei.setAttribute("disabled","disabled")
                             console.log(1);
                             return false;
                         }
                         if(!/^-?(0|[1-9]\d*)(\.\d*)?([eE][+-]?\d+)?$/.test(wid.value)){
                             len.innerHTML='长度必须为有效数值';
                             console.log(1);
-                            // hei.setAttribute("disabled","disabled")
+                            hei.setAttribute("disabled","disabled")
                             return false;
                         }
 
-                        // else{
-                        //     hei.removeAttribute("disabled");
-                        // }
+                        else{
+                            hei.removeAttribute("disabled");
+                        }
                         len.innerHTML=''
                         return true
                     }
