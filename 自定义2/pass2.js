@@ -5,7 +5,10 @@
 
         $btnaddpwd.click(function(){
             var pwd=new PasswordBox({'container':'div.main'});
+//var pwd=new PasswordBox('div.main');
             pwdArry.push(pwd);
+	    console.log(pwdArry)
+
         })
 
         $btngetpwd.click(function(){
@@ -14,3 +17,4 @@
             });
         }) 
 
+//{'container':'div.main'}

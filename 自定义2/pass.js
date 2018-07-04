@@ -1,4 +1,4 @@
-var PasswordBox=function(config){ 
+﻿var PasswordBox=function(config){ 
     var $pwd=$('<input type="password">'),
         $peyeimg=$('<img src="eye112.png" />'),
         $div=$('<div class="wd-main">密码：</div>');
@@ -7,6 +7,7 @@ var PasswordBox=function(config){
         $div.append($peyeimg);
         
         $(config.container).append($div);
+        console.log(config)
 
   
 
